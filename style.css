@@ -116,7 +116,7 @@ figcaption > p{
     width: 250px;
     color: #9DABC1;
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 300;
     letter-spacing: 3px;
     font-size: .8rem;
     visibility: hidden;
@@ -172,7 +172,7 @@ figcaption > p{
         display: flex;
         /* justify-content: space-between; */
         align-items: center;
-        padding: 30px;
+        padding: 23px;
         border-radius: unset;
         position: absolute;
         bottom: 0px;
@@ -189,11 +189,15 @@ figcaption > p{
 @media screen and (max-width: 767px) {
     main{
         width: 100%;
+        margin-top: 20px;
     }
     .card-detail > h1{
         font-size: 1rem;
     }
     .avatar>img{
         margin-right: 10px;
+    }
+    .card-detail{
+        padding: 20px;
     }
 }
